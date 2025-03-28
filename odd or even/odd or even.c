@@ -4,7 +4,7 @@
 
 #ifdef _WIN32 
 #include <windows.h>
-#define _sleep() Sleep(1)
+#define _sleep() Sleep(1000)
 #endif
 
 #ifdef __unix__
